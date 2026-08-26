@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Exp 04c - Herencia y Cascada</title>
+  <link rel="stylesheet" href="hereciaycascada.css">
+</head>
+<body>
+
+  <h1>Herencia y Cascada</h1>
+
+  <!-- HERENCIA: el div tiene los estilos y sus hijos los heredan -->
+  <div class="contenedor-herencia">
+    <p>Este párrafo hereda el color y la fuente del contenedor.</p>
+    <ul>
+      <li>Este li también hereda estilos (color y fuente)</li>
+    </ul>
+    <span>Este span hereda igual</span>
+  </div>
+
+  <!-- CASCADA: mismo elemento con varias reglas que compiten -->
+  <p class="parrafo-cascada" id="parrafo-especial">
+    Este párrafo tiene reglas por etiqueta, clase e id al mismo tiempo.
+  </p>
+
+  <p class="parrafo-cascada">Este solo tiene clase.</p>
+
+  <p style="color: brown;" class="parrafo-cascada">
+    Este tiene estilo en línea, que gana a todo lo demás.
+  </p>
+
+</body>
+</html>

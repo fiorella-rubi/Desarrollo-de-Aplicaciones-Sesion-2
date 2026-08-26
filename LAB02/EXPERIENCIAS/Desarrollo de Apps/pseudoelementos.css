@@ -1,0 +1,32 @@
+.con-before::before {
+  content: "👉 ";
+}
+
+.con-after::after {
+  content: " 👈";
+}
+
+.primera-letra::first-letter {
+  font-size: 30px;
+  color: darkred;
+}
+
+.primera-linea::first-line {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.seleccion::selection {
+  background-color: yellow;
+  color: black;
+}
+
+.con-placeholder::placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.lista-marcador li::marker {
+  color: green;
+  font-weight: bold;
+}

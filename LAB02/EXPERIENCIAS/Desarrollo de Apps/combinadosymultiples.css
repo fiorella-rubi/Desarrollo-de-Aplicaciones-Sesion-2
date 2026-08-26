@@ -1,0 +1,48 @@
+.caja p {
+  color: blue;
+}
+
+.tarjeta > p {
+  color: green;
+  font-weight: bold;
+}
+
+h3 + p {
+  color: red;
+}
+
+h4 ~ p {
+  color: purple;
+}
+
+input.resaltado {
+  border: 2px solid orange;
+}
+
+#menu .activo {
+  background-color: lightyellow;
+}
+
+input[type="text"].resaltado {
+  padding: 5px;
+}
+
+h5, h6 {
+  color: darkslategray;
+}
+
+p.nota, span.nota, div.nota {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+input, textarea, select {
+  font-size: 14px;
+}
+
+.caja, #menu, h4 {
+  margin-bottom: 15px;
+}

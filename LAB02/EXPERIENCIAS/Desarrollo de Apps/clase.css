@@ -1,0 +1,40 @@
+.encabezado {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.titulo-principal {
+  color: yellow;
+}
+
+.texto-destacado {
+  font-weight: bold;
+}
+
+.seccion {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.subtitulo {
+  color: darkorange;
+}
+
+.texto-normal {
+  color: #444;
+}
+
+.lista {
+  color: teal;
+}
+
+.enlace {
+  color: blue;
+}
+
+.pie {
+  background-color: #eee;
+  text-align: center;
+}

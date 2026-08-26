@@ -1,0 +1,53 @@
+a:hover {
+  color: red;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}
+
+input:focus {
+  border: 2px solid blue;
+}
+
+li:first-child {
+  color: green;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+li:nth-child(even) {
+  background-color: #d0d0ff;
+}
+
+input:checked {
+  outline: 2px solid green;
+}
+
+input:disabled {
+  background-color: #eee;
+  color: #999;
+}
+
+input:required {
+  border-left: 4px solid orange;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+p:not(span) {
+  color: #333;
+}

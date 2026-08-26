@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Exp 04a - Combinados y Múltiples</title>
+  <link rel="stylesheet" href="combinadosymultiples.css">
+</head>
+<body>
+
+  <h1>Selectores Combinados y Múltiples</h1>
+
+  <div class="caja">
+    <p>Párrafo directo dentro de .caja (descendiente)</p>
+    <div>
+      <p>Párrafo dentro de un div anidado (descendiente también)</p>
+    </div>
+  </div>
+
+  <div class="tarjeta">
+    <h2>Título de tarjeta</h2>
+    <p>Hijo directo de .tarjeta (child >)</p>
+  </div>
+
+  <h3>Encabezado 3</h3>
+  <p>Párrafo justo después del h3 (hermano adyacente +)</p>
+  <p>Otro párrafo después (no es adyacente directo)</p>
+
+  <h4>Encabezado 4</h4>
+  <p>Primer hermano general (~)</p>
+  <span>Un span</span>
+  <p>Segundo hermano general (~)</p>
+
+  <input type="text" class="resaltado" placeholder="Input con clase y atributo">
+
+  <ul id="menu">
+    <li class="activo">Elemento con clase dentro de #menu</li>
+  </ul>
+
+  <h5>Encabezado 5</h5>
+  <h6>Encabezado 6</h6>
+  <p class="nota">Párrafo con clase nota</p>
+  <span class="nota">Span con clase nota</span>
+  <div class="nota">Div con clase nota</div>
+
+</body>
+</html>

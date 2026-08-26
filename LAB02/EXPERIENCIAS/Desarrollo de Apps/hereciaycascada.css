@@ -1,0 +1,29 @@
+.contenedor-herencia {
+  color: teal;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.8;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  color: black;
+}
+
+.parrafo-cascada {
+  color: blue;
+}
+
+#parrafo-especial {
+  color: green;
+}
+
+.parrafo-cascada {
+  background-color: #f5f5f5;
+}
+
+p {
+  font-size: 16px !important;
+}

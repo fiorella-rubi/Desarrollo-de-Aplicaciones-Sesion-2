@@ -1,0 +1,31 @@
+input[type="text"] {
+  border: 1px solid blue;
+}
+
+input[type="email"] {
+  border: 1px solid green;
+}
+
+input[type="password"] {
+  border: 1px solid red;
+}
+
+p[title] {
+  background-color: lightyellow;
+}
+
+a[target="_blank"] {
+  color: orange;
+}
+
+a[href^="https"] {
+  font-weight: bold;
+}
+
+a[href$=".html"] {
+  text-decoration: underline;
+}
+
+img[data-categoria="foto"] {
+  border: 3px solid purple;
+}

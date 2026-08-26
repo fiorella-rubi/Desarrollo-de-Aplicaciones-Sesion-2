@@ -1,0 +1,21 @@
+a[href^="https"] {
+  color: green;
+}
+
+a[href$=".pdf"] {
+  color: red;
+  font-weight: bold;
+}
+
+img[src*="playa"] {
+  border: 3px solid orange;
+}
+
+div[class~="destacada"] {
+  background-color: yellow;
+}
+
+p[lang|="es"] {
+  font-style: italic;
+  color: darkblue;
+}
