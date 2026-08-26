@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #334155;
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+}
+
+#contenedor {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 { 
+    color: #1e3a8a; 
+    margin-top: 0; 
+}
+
+p { 
+    line-height: 1.6; 
+    font-size: 15px; 
+}
+
+.destacado { 
+    color: #0f766e; 
+    font-weight: 600; 
+}
+
+#cabecera { 
+    border-bottom: 2px solid #e2e8f0; 
+    padding-bottom: 15px; 
+    margin-bottom: 20px; 
+}
+
+nav a { 
+    text-decoration: none; 
+    color: #1e293b; 
+    margin-right: 12px; 
+    font-weight: 500; 
+}
+
+[class$="-item"] { 
+    display: inline-block; 
+}
+
+.btn-nav {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tarjeta-box {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+footer {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #64748b;
+    text-align: center;
+}
+
+main h2::before {
+    content: "📌 ";
+}
+
+main > p::first-letter {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563eb;
+    font-family: Georgia, serif;
+}
+
+.lista-articulos li:not(.destacado) {
+    padding: 6px 10px;
+    margin-bottom: 4px;
+    background-color: #f8fafc;
+    border-left: 3px solid #cbd5e1;
+}
+
+a[href^="http"]:not([href*="tudominio.com"])::after {
+    content: " ↗";
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+h3 + p {
+    margin-top: 6px;
+    color: #475569;
+    font-style: italic;
+}

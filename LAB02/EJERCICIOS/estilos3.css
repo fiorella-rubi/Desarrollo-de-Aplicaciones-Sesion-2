@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #334155;
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+}
+
+#contenedor {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 { 
+    color: #1e3a8a; 
+    margin-top: 0; 
+}
+
+p { 
+    line-height: 1.6; 
+    font-size: 15px; 
+}
+
+.destacado { 
+    color: #0f766e; 
+    font-weight: 600; 
+}
+
+#cabecera { 
+    border-bottom: 2px solid #e2e8f0; 
+    padding-bottom: 15px; 
+    margin-bottom: 20px; 
+}
+
+#contenido { 
+    margin-bottom: 20px; 
+}
+
+nav a { 
+    text-decoration: none; 
+    color: #1e293b; 
+    margin-right: 12px; 
+    font-weight: 500; 
+}
+
+[class$="-item"] { 
+    display: inline-block; 
+}
+
+.tarjeta-box {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+footer {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #64748b;
+    text-align: center;
+}
+
+.btn-nav {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn-nav:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+
+@keyframes aparecerTarjeta {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tarjeta-box {
+    animation: aparecerTarjeta 0.7s ease-out forwards;
+}
+
+.lista-articulos li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    background-color: #f8fafc;
+    border-radius: 4px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.lista-articulos li:hover {
+    background-color: #eff6ff;
+    border-color: #3b82f6;
+    transform: translateX(5px);
+}
