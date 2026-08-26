@@ -1,0 +1,145 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #334155;
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+}
+
+#contenedor {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    color: #1e3a8a;
+    margin-top: 0;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.destacado {
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.tarjeta-box {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-left: 4px solid #3b82f6;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+#cabecera {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+#contenido {
+    margin-bottom: 20px;
+}
+
+[target] {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+[type="text"] {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    height: 80px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: #2563eb;
+}
+
+input:focus, textarea:focus {
+    background-color: #f8fafc;
+    border-color: #3b82f6;
+    outline: none;
+}
+
+ul.lista-articulos li:nth-child(2) {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1e293b;
+    margin-right: 12px;
+    font-weight: 500;
+}
+
+ul > li {
+    margin-bottom: 8px;
+}
+
+h2 + p {
+    color: #475569;
+}
+
+h2 ~ div {
+    border-radius: 6px;
+}
+
+[href^="https"] {
+    color: #059669;
+}
+
+[class$="-item"] {
+    display: inline-block;
+}
+
+[class*="btn-"] {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #64748b;
+    text-align: center;
+}
